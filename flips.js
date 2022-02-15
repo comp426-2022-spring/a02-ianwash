@@ -5,11 +5,10 @@ import { coinFlip } from "./modules/coin.mjs";
 const require = createRequire(import.meta.url);
 const args = require('yargs').argv;
 
-let flips;
 
 if (typeof args.number == "undefined") {
-    flips = coinFlip();
+    console.log(coinFlip());
 } else {
-    flips = coinFlips(args.number);
+    let flips = coinFlips(args.number);
+    console.log(flips);
 }
-console.log(flips);

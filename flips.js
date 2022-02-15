@@ -8,7 +8,7 @@ const args = require('yargs').argv;
 let flips;
 
 if (typeof args.number == "undefined") {
-    flips = coinFlip(1);
+    flips = coinFlips(1);
 } else {
     flips = coinFlips(args.number);
 }

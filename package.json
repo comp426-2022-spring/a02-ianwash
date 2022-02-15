@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "flip": "node flip.js",
-	  "flips": "node flips.js",
-	  "guess-flip": "node guess-flip.js",
+    "flips": "node flips.js",
+    "guess-flip": "node guess-flip.js",
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
   },
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a02-ianwash/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a02-ianwash#readme"
+  "homepage": "https://github.com/comp426-2022-spring/a02-ianwash#readme",
+  "dependencies": {
+    "yargs": "^17.3.1"
+  }
 }

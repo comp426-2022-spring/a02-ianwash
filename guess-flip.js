@@ -8,7 +8,7 @@ if (typeof args.call === "undefined") {
     console.log("Error: no input.");
 } else {
     if (args.call !== "heads" || args.call !== "tails") {
-        throw 'not a valid input';
+        console.log("Error: not a valid input.");
     } else {
         console.log(flipACoin(args.call));
     }

@@ -12,3 +12,4 @@ if (typeof args.call === "undefined") {
 } else {
     console.log(flipACoin(args.call));
 }
+//console.log("why isn't it working");
